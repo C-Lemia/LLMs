@@ -23,11 +23,11 @@ Command R, Falcon, entre outros.
 
 ### 1. Clone o repositório
 
-```bash
+bash
 git clone https://github.com/C-Lemia/LLMs.git
 cd LLMs
 
-##### Crie um ambiente virtual
+### Crie um ambiente virtual
 python -m venv venv
 venv\Scripts\activate  # No Windows
 
