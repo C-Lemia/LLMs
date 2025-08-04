@@ -2,21 +2,21 @@ Um aplicativo em Python com Streamlit que permite ao usuário **fazer perguntas 
 
 ![Interface Principal](imagem/image3.png)
 
-<<<<<<< HEAD
+
 ##  Funcionalidades
-=======
+
 ## Funcionalidades
->>>>>>> ddf76316c3c152dfad123f182292ff802b7872b9
+
 
 -  Busca informações em tempo real na web.
 - Responde com base nos resultados encontrados.
 - Usa modelo LLM local ou hospedado (Mixtral via API).
 - 🇧🇷 Sempre responde em **português**.
-<<<<<<< HEAD
+
 -  Interface amigável feita com **Streamlit**.
-=======
+
 - Interface amigável feita com **Streamlit**.
->>>>>>> ddf76316c3c152dfad123f182292ff802b7872b9
+
 
 ![Exemplo de Busca](imagem/image2.png)
 
@@ -59,5 +59,6 @@ Streamlit
 DuckDuckGo Search
 
 Together.ai API
+
 
 
