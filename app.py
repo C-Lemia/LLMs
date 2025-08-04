@@ -1,17 +1,19 @@
 import streamlit as st
-from query import load_and_query  # Importa a função load_and_query definida no arquivo query.py
+from query import consultar_modelo  #------------ Importa a função principal que busca e responde
 
+#------------ Configurações iniciais da página do app
+st.set_page_config(page_title="Buscador Inteligente", page_icon="🔍")
+st.title("Explorador de Conhecimento Web")
 
-st.set_page_config(page_title="Buscador Inteligente", page_icon="🔍")  # Configurações da página do Streamlit (título da aba e ícone)
+#------------ Campo de entrada onde o usuário digita a pergunta
+pergunta_usuario = st.text_input("Pergunte algo :")
 
-st.title("🔍 Explorador de Conhecimento Web")
-
-question = st.text_input("Pergunte algo :") # Campo de entrada de texto onde o usuário digita a pergunta
-
-if question:
-    with st.spinner("Buscando na web..."):
+#------------ Se o usuário digitar algo, processa a pergunta
+if pergunta_usuario:
+    with st.spinner("Buscando na web e consultando IA..."):
         try:
-            response = load_and_query(question)
-            st.markdown(f"**Resposta:**\n\n{response}") # Exibe a resposta formatada em negrito
-        except Exception as e:
-            st.error(f"Ocorreu um erro: {e}")
+            resposta = consultar_modelo(pergunta_usuario)
+            st.markdown(f"**Resposta:**\n\n{resposta}")  #------------ Exibe a resposta da IA
+        except Exception as erro:
+            st.error(f"Ocorreu um erro: {erro}")
+

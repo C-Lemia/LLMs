@@ -2,13 +2,21 @@ Um aplicativo em Python com Streamlit que permite ao usuário **fazer perguntas 
 
 ![Interface Principal](imagem/image3.png)
 
+<<<<<<< HEAD
 ##  Funcionalidades
+=======
+## Funcionalidades
+>>>>>>> ddf76316c3c152dfad123f182292ff802b7872b9
 
 -  Busca informações em tempo real na web.
 - Responde com base nos resultados encontrados.
 - Usa modelo LLM local ou hospedado (Mixtral via API).
 - 🇧🇷 Sempre responde em **português**.
+<<<<<<< HEAD
 -  Interface amigável feita com **Streamlit**.
+=======
+- Interface amigável feita com **Streamlit**.
+>>>>>>> ddf76316c3c152dfad123f182292ff802b7872b9
 
 ![Exemplo de Busca](imagem/image2.png)
 
@@ -23,11 +31,11 @@ Command R, Falcon, entre outros.
 
 ### 1. Clone o repositório
 
-```bash
+bash
 git clone https://github.com/C-Lemia/LLMs.git
 cd LLMs
 
-##### Crie um ambiente virtual
+### Crie um ambiente virtual
 python -m venv venv
 venv\Scripts\activate  # No Windows
 
@@ -42,7 +50,7 @@ Arquivo .env com : TOGETHER_API_KEY=your_api_key_here
 
 streamlit run app.py
 
-# 🛠 Tecnologias
+# Tecnologias
 
 Python 3.10+
 
@@ -51,3 +59,5 @@ Streamlit
 DuckDuckGo Search
 
 Together.ai API
+
+
