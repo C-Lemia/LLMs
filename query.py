@@ -22,10 +22,10 @@ def consultar_modelo(pergunta):
     prompt = f"""
 Responda **em português** com base nas informações abaixo. Seja direto e cite fontes se possível.
 
-🔎 Resultados da busca:
+Resultados da busca:
 {resultados_busca}
 
-❓ Pergunta: {pergunta}
+ Pergunta: {pergunta}
 """
 
     resposta = requests.post(
@@ -56,3 +56,4 @@ Responda **em português** com base nas informações abaixo. Seja direto e cite
 
     #------------ Extrai apenas o conteúdo útil da resposta
     return resposta.json()["choices"][0]["message"]["content"]
+
