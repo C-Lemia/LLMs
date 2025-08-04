@@ -4,11 +4,11 @@ Um aplicativo em Python com Streamlit que permite ao usuário **fazer perguntas 
 
 ## ✨ Funcionalidades
 
-- 🔎 Busca informações em tempo real na web.
-- 💬 Responde com base nos resultados encontrados.
-- 🧠 Usa modelo LLM local ou hospedado (Mixtral via API).
+-  Busca informações em tempo real na web.
+- Responde com base nos resultados encontrados.
+- Usa modelo LLM local ou hospedado (Mixtral via API).
 - 🇧🇷 Sempre responde em **português**.
-- 💻 Interface amigável feita com **Streamlit**.
+- Interface amigável feita com **Streamlit**.
 
 ![Exemplo de Busca](imagem/image2.png)
 
@@ -42,7 +42,7 @@ Arquivo .env com : TOGETHER_API_KEY=your_api_key_here
 
 streamlit run app.py
 
-# 🛠 Tecnologias
+# Tecnologias
 
 Python 3.10+
 
@@ -51,3 +51,4 @@ Streamlit
 DuckDuckGo Search
 
 Together.ai API
+
