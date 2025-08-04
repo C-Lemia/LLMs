@@ -3,7 +3,7 @@ from query import consultar_modelo  #------------ Importa a função principal q
 
 #------------ Configurações iniciais da página do app
 st.set_page_config(page_title="Buscador Inteligente", page_icon="🔍")
-st.title("🔍 Explorador de Conhecimento Web")
+st.title("Explorador de Conhecimento Web")
 
 #------------ Campo de entrada onde o usuário digita a pergunta
 pergunta_usuario = st.text_input("Pergunte algo :")
@@ -16,3 +16,4 @@ if pergunta_usuario:
             st.markdown(f"**Resposta:**\n\n{resposta}")  #------------ Exibe a resposta da IA
         except Exception as erro:
             st.error(f"Ocorreu um erro: {erro}")
+
