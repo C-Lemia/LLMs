@@ -2,13 +2,13 @@ Um aplicativo em Python com Streamlit que permite ao usuário **fazer perguntas 
 
 ![Interface Principal](imagem/image3.png)
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- 🔎 Busca informações em tempo real na web.
-- 💬 Responde com base nos resultados encontrados.
-- 🧠 Usa modelo LLM local ou hospedado (Mixtral via API).
+-  Busca informações em tempo real na web.
+- Responde com base nos resultados encontrados.
+- Usa modelo LLM local ou hospedado (Mixtral via API).
 - 🇧🇷 Sempre responde em **português**.
-- 💻 Interface amigável feita com **Streamlit**.
+-  Interface amigável feita com **Streamlit**.
 
 ![Exemplo de Busca](imagem/image2.png)
 
